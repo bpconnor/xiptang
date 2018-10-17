@@ -1,7 +1,7 @@
 
 # Shared definition block
 shared:
-  image: xiptang
+  #image: xiptang
   
   # Job definition block
 jobs:
