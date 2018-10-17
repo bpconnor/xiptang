@@ -1,7 +1,7 @@
 
 # Shared definition block
-#shared:
-  #image: xiptang
+shared:
+  image: openjdk
   
   # Job definition block
 jobs:
