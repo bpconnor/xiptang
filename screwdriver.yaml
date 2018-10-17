@@ -9,6 +9,7 @@ jobs:
     requires: [~pr, ~commit]
     # Steps definition block.
     steps:
+      - whereisi: pwd && ls -al
       - export: export GREETING="Hello, world!"
       - hello: echo $GREETING
       - set-metadata: meta set example.coverage 99.95
